@@ -1,0 +1,251 @@
+/* terms and condition */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(241, 240, 238);
+  
+  }
+  
+  /* header and navbar */
+  
+  /* header section */
+  .header-container {
+    position: sticky;
+    top: 0;
+    height: 70px;
+    background-color:rgb(158, 118, 17);
+  }
+  
+  /* navbar logo container */
+  .logo-container{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: start;
+    font-weight: 900;
+    font-size: 27px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* navbar keywords */
+  .navbar-keywords-container{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 56px;
+  }
+  
+  .navbar-keywords-container li {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+  }
+  
+  .navbar-keywords-container li:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 4px solid black; */
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  /* first container */
+  .frist-sections {
+    background-image: url(image/sv.webp);
+    background-repeat: no-repeat;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-size: cover;
+    height: 500px;
+  
+  }
+  
+  .frist-containers {
+    margin: 60px;
+    padding: 50px;
+  }
+.about-us-des {
+    color: black;
+    line-height: 35px;
+    font-size: 18px;
+  }
+
+
+
+  
+  /* about us title */
+  .about-us-title {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 26px;
+  }
+  
+  /* about us para box */
+  .about-us-para-box {
+    width: 100%;
+    background-color: rgb(193, 189, 181);
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 40px;
+  }
+  .policies{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .rule{
+    font-size: 25px;
+    color: rgb(183, 75, 13);
+  }
+  .heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(42, 94, 96);
+    display: flex;
+    justify-content: center;
+  }
+  /* footer */
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #f9f6f6;
+    background-color: #070707;
+    border-top: 1px solid #4a4141;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+  }
+  
+  .footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .nav__title {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .footer address {
+    font-style: normal;
+    color: #999;
+  }
+  
+  .footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #2f2f2f;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    color: #999;
+  }
+  
+  .nav__ul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+  }
+  
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+  }
+    
+  .legal__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart {
+    color: #2f2f2f;
+  }
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }

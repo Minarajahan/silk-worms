@@ -1,0 +1,555 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0%;
+  background-color: rgb(241, 238, 223);
+
+}
+
+/* header and navbar */
+
+/* header section */
+.header-container {
+  position: sticky;
+  top: 0;
+  height: 70px;
+  background-color: rgb(109, 93, 13);
+}
+
+/* navbar logo container */
+.logo-container{
+  width: 20%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: start;
+  font-weight: 900;
+  font-size: 27px;
+  color: white;
+  cursor: pointer;
+}
+
+/* navbar keywords */
+.navbar-keywords-container{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 56px;
+}
+
+.navbar-keywords-container li {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-keywords-container li:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 4px solid black; */
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* first container */
+.frist-sections {
+  background-image: url(image/sv.webp);
+  background-repeat: no-repeat;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  background-size: cover;
+  height: 500px;
+
+}
+
+.frist-containers {
+  margin: 60px;
+  padding: 50px;
+}
+/* nanchong silk */
+.experiment-item{
+  box-shadow: 10px 10px 40px rgb(10, 10, 10);
+  width: 70%;
+  height: 300px;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 10px;
+  padding-left: 20px;
+  
+}
+/* uhnnkkkm,kl */
+.flex-container{
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.story{
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(6, 6, 6);
+
+}
+.heading{
+  font-size: 50px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: rgb(158, 118, 17);
+}
+.date{
+  
+  color: rgb(186, 134, 45);
+  font-weight: 600;
+}
+.para{
+  color: black;
+}
+
+/* dhshsoincnknxklcissnci */
+.frist-section {
+  background-image: url(images/donation1.jpg);
+  background-repeat: no-repeat;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  background-size: cover;
+  height: 600px;
+
+}
+
+.frist-button {
+  text-decoration: none;
+  background-image: linear-gradient(tomato, rgb(231, 114, 96));
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.frist-container {
+  margin: 60px;
+  padding: 50px;
+}
+
+/* #second section */
+.second-section {
+  text-align: center;
+  background-color: rgb(158, 169, 143);
+  padding: 50px;
+  height: 500px;
+  margin-top: 60px;
+
+}
+
+.silk-cycle {
+  display: flex;
+  margin-left: 120px;
+
+}
+
+.silk {
+  width: 250px;
+  padding: 40px;
+  margin: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+#money-200 {
+  color:  rgb(42, 27, 106);
+  border: 2px solid  rgb(42, 27, 106);
+}
+.life-cycle{
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(42, 27, 106);
+ 
+}
+
+.second-button {
+  text-decoration: none;
+  background-image: linear-gradient(cyan, rgb(197, 156, 149));
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+/* Primary Stage of silk worm */
+.third-section {
+  text-align: center;
+  height: 600px;
+}
+
+.donate-section {
+  margin-top: 80px;
+}
+
+.donate-plan {
+  display: flex;
+  
+}
+
+.donate-plan-1 {
+  padding: 70px;
+  text-align: left;
+  margin: 30px;
+  margin-right: 10px;
+  background-color: rgb(132, 200, 205);
+
+}
+
+.egg {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.egg-2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#background-color-1 {
+  background-color: rgb(130, 209, 201);
+}
+
+#background-color-2 {
+  background-color: rgb(161, 240, 240);
+}
+
+#background-color-3 {
+  background-color: rgb(30, 131, 151);
+}
+/* bonus-part  */
+.bonus-part {
+ text-align: center;
+ display: grid;
+  background-color: rgb(151, 182, 182);
+  height: 300px;
+  margin: 50px;
+
+}
+
+.input-field {
+  padding: 5px;
+  text-align: center;
+  
+}
+
+.bonus-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(245, 217, 78), rgb(99, 66, 7));
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.address-input {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #403030;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+.contact {
+  font-size: 35px;
+
+
+}
+
+/* picture section picture section picture section */
+.picture-container {
+  background-color: #FFFFFF;
+  padding: 50px 5%;
+  
+}
+.contain{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.box {
+  width: 30%; 
+  padding: 20px;
+  background-color: white; 
+  box-shadow: 10px 10px 40px grey;
+}
+
+.box img {
+  max-width: 100%;
+  display: flex;
+  margin-bottom: 10px; 
+}
+
+.box p {
+  font-size: 16px; 
+  color: #333; 
+  line-height: 1.5; 
+}
+/* farming and policy */
+
+.about-us-des {
+  color: black;
+  line-height: 35px;
+  font-size: 18px;
+}
+
+/* about us title */
+.about-us-title {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 26px;
+}
+
+/* about us para box */
+.about-us-para-box {
+  width: 100%;
+  background-color: rgb(193, 189, 181);
+  margin: 0 auto;
+  border-radius: 12px;
+  margin-top: 30px;
+  padding: 40px;
+}
+.policies{
+  font-size: 30px;
+  font-weight: 600;
+}
+.rule{
+  font-size: 25px;
+  color: rgb(183, 75, 13);
+}
+
+/* experience */
+.experiences-item{
+  box-shadow: 10px 10px 40px grey;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  padding-left: 20px;
+  
+}
+.experiences-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#web-dev-exp{
+  border-left: 7px solid;
+  border-image:linear-gradient(blue ,cyan);
+  border-image-slice: 1;
+}
+.flexible-container{
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+.policy{
+  font-size: 20px;
+  color: chocolate;
+
+}
+.business{
+  font-size: 50px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+
+/* footer social media container */
+/* .social-media-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.social-icon {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-title {
+  color: rgb(14, 14, 14);
+}
+.midea{
+  font-size: 30px;
+  color: rgb(27, 243, 171);
+} */
+
+
+/* footer */
+/* footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  height: 50px;
+} */
+
+
+.footer {
+  display:flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #f9f6f6;
+  background-color: #070707;
+  border-top: 1px solid #4a4141;
+}
+
+.footer > * {
+  flex:  1 100%;
+}
+
+.footer__addr {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer__logo {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+}
+
+.footer__addr h2 {
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav__title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footer address {
+  font-style: normal;
+  color: #999;
+}
+
+.footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: rgb(33, 33, 33, 0.07);
+  border-radius: 100px;
+  color: #2f2f2f;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+	flex-flow: row wrap;
+}
+
+.footer__nav > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav__ul a {
+  color: #999;
+}
+
+.nav__ul--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+  
+.legal__links {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav > * {
+    flex: 1;
+  }
+  
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+  
+  .footer__addr {
+    flex: 1 0px;
+  }
+  
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
